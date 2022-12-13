@@ -1,0 +1,188 @@
+.updates-container{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+
+    align-items: center;
+    background-color: #f3f8f9;
+}
+.dates-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+}
+.date-important-heading{
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 6px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.view-button{
+    margin-left: 6px;
+    background-color: #0e5799;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 2px 3px 2px 3px;
+}
+.announcement{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 85%;
+}
+.announcement-heading{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Roboto,Arial;
+    padding-right: 6px;
+    cursor: pointer;
+}
+.date-content{
+    height: 220px;
+    width: 85%;
+    overflow: auto;
+    display: grid;
+    background-color: transparent;
+    grid-template-columns: 1fr;
+}
+.date-text-box{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 0.5px solid rgb(233, 227, 227);
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.date-text-box:hover{
+    box-shadow: 0px 0px 4px rgb(110, 108, 108);
+}
+.date-text{
+    display: flex;
+    flex: 1;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(136, 133, 133);
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+.date{
+    display: inline-block;
+    margin: 0px;
+    padding: 5px 10px 5px 0px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #0e5799;
+    border-right: 1px solid rgb(107, 106, 106);
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+.strike-text{
+    text-decoration: line-through;
+}
+::-webkit-scrollbar{
+    width: 11px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0e5799;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(218, 213, 213);
+}
+.annoucement-buttons{
+    height: 270px;
+    overflow: auto;
+    width: 85%;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+}
+.main-buttons{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid rgb(212, 210, 210);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: white;
+}
+.book-icon{
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background-color: #b4e2f0;
+    display: inline-block;
+}
+.anno-button{
+    padding: 10px;
+    background-color: #337ab7;
+    font-size: 12px;
+    color: white;
+    font-family: Raleway,Roboto,Arial;
+    border-radius: 3px;
+    border: none;
+    margin-left: 12px;
+}
+.anno-button-text{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Raleway,Roboto,Arial;
+    margin: 5px 0px;
+    padding-left: 12px;
+}
+.anno-para-button{
+    display: inline-block;
+}
+.main-buttons:hover{
+    background-color: #0e5799;
+    color: white;
+}
+.anno-button:hover{
+    box-shadow: 5px 4px 40px white;
+}
+.fb-tweet-main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.fb-image-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #0e5799;
+    padding-left: 15px;
+    margin-right: 5px;
+}
+.tweet-image-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: #0e5799;
+    padding-right: 15px;
+    margin-left: 5px;
+}
+.fb-tweet-text{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Raleway,Roboto,Arial;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}

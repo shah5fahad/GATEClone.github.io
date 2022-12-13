@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 100;
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0e5799;
+    position: sticky;
+    top: 0px;
+}
+.head-content{
+    background-color: #0e5799;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Raleway,sans-serif;
+    color: white;
+    align-items: center;
+    border: none;
+    padding: 18px;
+}
+.head-content:hover{
+    background-color: #447eb1;
+    cursor: pointer;
+}
