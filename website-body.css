@@ -63,11 +63,12 @@
     }
 }
 .logos-box{
-    height: 250px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logos{
     display: flex;
@@ -82,10 +83,96 @@
 .logo-imgs{
     width: 100%;
 }
+@media only screen and (max-width:800px){
+    .logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
 .footer-detail{
     background-image: url("./Images/footer.webp");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.links-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+}
+.mail-box{
+    margin-top: 30px;
+    width: 100%;
 }
 .link-text{
+    display: inline-block;
     color: white;
     font-family: Raleway,sans-serif;
+    text-decoration: none;
+}
+.link{
+    display: inline-block;
+}
+.all-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+    width: 85%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+.link-head{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    font-family: Raleway,sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.location-links{
+    display: flex;
+    flex-direction: column;
+}
+.address-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.phone-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.phone-text{
+    display: flex;
+    flex-direction: row;
+}
+.address-logo,.address-text{
+    display: inline-block;
+}
+.footer-base{
+    padding: 25px;
+    font-family: Raleway,sans-serif;
+    color: white;
+    font-size: 15px;
+}
+@media only screen and (max-width: 800px){
+    .all-links{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.arrow{
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0e5799;
+    display: inline-block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
 }
